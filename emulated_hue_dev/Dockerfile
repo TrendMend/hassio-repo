@@ -11,7 +11,7 @@ RUN wget -O /tmp/base.tar.gz "https://github.com/hass-emulated-hue/core/archive/
     && mv /tmp/base/* . \
     && chmod -R 755 *
 
-FROM ghcr.io/hass-emulated-hue/core:master
+FROM docker.io/trendmend/emulated_hue:latest
 
 # Copy root filesystem
 COPY --from=downloader /base/docker/rootfs-dev/ /
