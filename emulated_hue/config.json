@@ -1,6 +1,6 @@
 {
   "name": "Emulated HUE",
-  "version": "0.2.13",
+  "version": "latest",
   "description": "Hue Emulation for Home Assistant - Sep 24",
   "url": "https://github.com/TrendMend/core-1.git",
   "slug": "emulated_hue",
