@@ -1,7 +1,7 @@
 {
   "name": "Emulated HUE",
   "version": "0.2.13",
-  "description": "Hue Emulation for Home Assistant",
+  "description": "Hue Emulation for Home Assistant - Sep 24",
   "url": "https://github.com/TrendMend/core-1.git",
   "slug": "emulated_hue",
   "stage": "stable",
@@ -21,5 +21,5 @@
     "use_default_ports_for_discovery": "bool?",
     "verbose": "bool"
   },
-  "image": "ghcr.io/hass-emulated-hue/core"
+  "image": "docker.io/trendmend/emulated_hue"
 }
